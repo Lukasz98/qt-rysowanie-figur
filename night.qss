@@ -1,0 +1,55 @@
+#MyWindow {
+    background-color: rgb(125,125,125);
+
+}
+
+QLabel {
+    color: white;
+}
+
+QGroupBox {
+    color: white;
+}
+
+
+QRadioButton {
+    color: white;
+}
+
+QCheckBox {
+    border: none;
+    color: white;
+}
+
+QCheckBox::indicator {
+    width: 13px;
+    height: 13px;
+}
+
+QCheckBox::indicator::unchecked {
+    border: 1px solid #5A5A5A;
+    background: none;
+}
+
+QCheckBox::indicator:unchecked:hover {
+    border: 1px solid #DDDDDD;
+}
+
+QCheckBox::indicator::checked {
+    border: 1px solid #5A5A5A;
+    background: #5A5A5A;
+}
+
+QCheckBox::indicator:checked:hover {
+    border: 1px solid #DDDDDD;
+}
+
+QListWidget {
+    background: rgb(25,25,25);
+    color: white;
+}
+
+QListWidgetItem {
+    color: white;
+    background: white;
+}

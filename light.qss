@@ -1,0 +1,18 @@
+
+QMainWindow#MainWindow {
+    background-color: rgb(225,225,225);
+}
+
+QCheckBox {
+    background: rgb(225,225,225);
+    color: black;
+}
+
+QCheckBox::indicator {
+
+}
+
+QCheckBox::indicator::unchecked {
+    border: 1px solid #5A5A5A;
+}
+
